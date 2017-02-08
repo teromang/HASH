@@ -1,0 +1,16 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CNAMPX-16x60" DeviceId="3D"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="Crestron App" DeviceId="10"/>
+      <Device Model="DGE-100" DeviceId="11"/>
+      <Device Model="TSW-1052" DeviceId="12"/>
+      <Device Model="CEN-ERFGW-POE (Shared Ethernet)" DeviceId="13">
+         <Network Type="RF">
+            <Device Model="TSR-302 (RF)" DeviceId="03"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-NSP-1" DeviceId="31"/>
+   </Network>
+</Device>
